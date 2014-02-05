@@ -17,7 +17,6 @@
 		A2FCB32718A1CBF900459694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FCB32518A1CBF900459694 /* Main.storyboard */; };
 		A2FCB32A18A1CBF900459694 /* Intentional.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB32818A1CBF900459694 /* Intentional.xcdatamodeld */; };
 		A2FCB32D18A1CBF900459694 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB32C18A1CBF900459694 /* MasterViewController.m */; };
-		A2FCB33018A1CBF900459694 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB32F18A1CBF900459694 /* DetailViewController.m */; };
 		A2FCB33218A1CBF900459694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FCB33118A1CBF900459694 /* Images.xcassets */; };
 		A2FCB33918A1CBF900459694 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB33818A1CBF900459694 /* XCTest.framework */; };
 		A2FCB33A18A1CBF900459694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB31118A1CBF900459694 /* Foundation.framework */; };
@@ -25,6 +24,10 @@
 		A2FCB33C18A1CBF900459694 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB31718A1CBF900459694 /* CoreData.framework */; };
 		A2FCB34418A1CBF900459694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FCB34218A1CBF900459694 /* InfoPlist.strings */; };
 		A2FCB34618A1CBF900459694 /* IntentionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB34518A1CBF900459694 /* IntentionalTests.m */; };
+		A2FCB35318A1CCCF00459694 /* EnterEmailIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB35218A1CCCF00459694 /* EnterEmailIntention.m */; };
+		A2FCB35618A1CCFE00459694 /* SaveEmailIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB35518A1CCFE00459694 /* SaveEmailIntention.m */; };
+		A2FCB35A18A1CD2F00459694 /* PersonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB35918A1CD2F00459694 /* PersonProxy.m */; };
+		A2FCB36018A1D57100459694 /* CoreDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FCB35F18A1D57100459694 /* CoreDataConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +56,20 @@
 		A2FCB32918A1CBF900459694 /* Intentional.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Intentional.xcdatamodel; sourceTree = "<group>"; };
 		A2FCB32B18A1CBF900459694 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		A2FCB32C18A1CBF900459694 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A2FCB32E18A1CBF900459694 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A2FCB32F18A1CBF900459694 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A2FCB33118A1CBF900459694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A2FCB33718A1CBF900459694 /* IntentionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FCB33818A1CBF900459694 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A2FCB34118A1CBF900459694 /* IntentionalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntentionalTests-Info.plist"; sourceTree = "<group>"; };
 		A2FCB34318A1CBF900459694 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2FCB34518A1CBF900459694 /* IntentionalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentionalTests.m; sourceTree = "<group>"; };
+		A2FCB35118A1CCCF00459694 /* EnterEmailIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterEmailIntention.h; sourceTree = "<group>"; };
+		A2FCB35218A1CCCF00459694 /* EnterEmailIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterEmailIntention.m; sourceTree = "<group>"; };
+		A2FCB35418A1CCFE00459694 /* SaveEmailIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveEmailIntention.h; sourceTree = "<group>"; };
+		A2FCB35518A1CCFE00459694 /* SaveEmailIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveEmailIntention.m; sourceTree = "<group>"; };
+		A2FCB35818A1CD2F00459694 /* PersonProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonProxy.h; sourceTree = "<group>"; };
+		A2FCB35918A1CD2F00459694 /* PersonProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonProxy.m; sourceTree = "<group>"; };
+		A2FCB35E18A1D57100459694 /* CoreDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataConnection.h; sourceTree = "<group>"; };
+		A2FCB35F18A1D57100459694 /* CoreDataConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +132,13 @@
 		A2FCB31918A1CBF900459694 /* Intentional */ = {
 			isa = PBXGroup;
 			children = (
+				A2FCB35718A1CD2400459694 /* Models */,
+				A2FCB32518A1CBF900459694 /* Main.storyboard */,
+				A2FCB34F18A1CCAB00459694 /* Master */,
 				A2FCB32218A1CBF900459694 /* AppDelegate.h */,
 				A2FCB32318A1CBF900459694 /* AppDelegate.m */,
-				A2FCB32518A1CBF900459694 /* Main.storyboard */,
-				A2FCB32B18A1CBF900459694 /* MasterViewController.h */,
-				A2FCB32C18A1CBF900459694 /* MasterViewController.m */,
-				A2FCB32E18A1CBF900459694 /* DetailViewController.h */,
-				A2FCB32F18A1CBF900459694 /* DetailViewController.m */,
+				A2FCB35E18A1D57100459694 /* CoreDataConnection.h */,
+				A2FCB35F18A1D57100459694 /* CoreDataConnection.m */,
 				A2FCB33118A1CBF900459694 /* Images.xcassets */,
 				A2FCB32818A1CBF900459694 /* Intentional.xcdatamodeld */,
 				A2FCB31A18A1CBF900459694 /* Supporting Files */,
@@ -164,6 +173,36 @@
 				A2FCB34218A1CBF900459694 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FCB34F18A1CCAB00459694 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB32B18A1CBF900459694 /* MasterViewController.h */,
+				A2FCB32C18A1CBF900459694 /* MasterViewController.m */,
+				A2FCB35018A1CCB100459694 /* Intentions */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		A2FCB35018A1CCB100459694 /* Intentions */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB35118A1CCCF00459694 /* EnterEmailIntention.h */,
+				A2FCB35218A1CCCF00459694 /* EnterEmailIntention.m */,
+				A2FCB35418A1CCFE00459694 /* SaveEmailIntention.h */,
+				A2FCB35518A1CCFE00459694 /* SaveEmailIntention.m */,
+			);
+			name = Intentions;
+			sourceTree = "<group>";
+		};
+		A2FCB35718A1CD2400459694 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB35818A1CD2F00459694 /* PersonProxy.h */,
+				A2FCB35918A1CD2F00459694 /* PersonProxy.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2FCB33018A1CBF900459694 /* DetailViewController.m in Sources */,
+				A2FCB35618A1CCFE00459694 /* SaveEmailIntention.m in Sources */,
 				A2FCB32D18A1CBF900459694 /* MasterViewController.m in Sources */,
+				A2FCB36018A1D57100459694 /* CoreDataConnection.m in Sources */,
+				A2FCB35A18A1CD2F00459694 /* PersonProxy.m in Sources */,
+				A2FCB35318A1CCCF00459694 /* EnterEmailIntention.m in Sources */,
 				A2FCB32418A1CBF900459694 /* AppDelegate.m in Sources */,
 				A2FCB32018A1CBF900459694 /* main.m in Sources */,
 				A2FCB32A18A1CBF900459694 /* Intentional.xcdatamodeld in Sources */,
